@@ -25,6 +25,7 @@ Tree.Definition = {
   "params": [
     { "name": "field", "type": "field" },
     { "name": "sort", "type": "compare" },
+    { "name": "separation", "type": "function" },
     { "name": "method", "type": "enum", "default": "tidy", "values": ["tidy", "cluster"] },
     { "name": "size", "type": "number", "array": true, "length": 2 },
     { "name": "nodeSize", "type": "number", "array": true, "length": 2 },
